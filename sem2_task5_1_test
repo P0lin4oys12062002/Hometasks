@@ -1,8 +1,0 @@
-		std::sregex_iterator end;
-			for(; pos != end; ++pos){std::cout << pos->str(4)<< pos->str(5) << std::endl;}
-		}
-		data.close();
-		read_text.close();
-		std::cout << "All matches detected" << std::endl;
-		return 0;
-	}
